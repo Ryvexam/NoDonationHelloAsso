@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "HelloAsso No Donation",
+  "version": "1.0",
+  "description": "Automatically sets HelloAsso donation to 0.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.helloasso.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.helloasso.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+} 
