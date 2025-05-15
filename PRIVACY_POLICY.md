@@ -1,6 +1,6 @@
 # Privacy Policy for HelloAsso No Donation Extension
 
-Last updated: May 14, 2025
+Last updated: May 15, 2025
 
 This privacy policy governs your use of the HelloAsso No Donation browser extension (the "Extension") created by Ryvexam (Maxime VERY).
 
@@ -12,9 +12,8 @@ All operations performed by the Extension are done locally within your browser o
 
 ## Permissions
 
-The Extension requires the following permissions:
+The Extension requires the following permission:
 
-*   `activeTab`: This permission is used to allow the extension to run when its icon is clicked (though currently, the extension runs automatically on matched pages and doesn't have a separate popup action).
 *   `*://*.helloasso.com/*`: This permission allows the Extension to access and modify content on pages within the helloasso.com domain to perform its intended function of setting the donation to zero.
 
 No data is sent to any external servers or third parties.
